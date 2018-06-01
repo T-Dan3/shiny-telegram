@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Water pollution in New Zealand</title>
+<link href="CSS\style1.css" type="text/css" rel="stylesheet">
+<style>
+@font-face { font-family:"Arvo"; src: url("Fonts/Arvo-Regular.ttf"); }
+@font-face { font-family:"Stika"; src: url("Fonts/Stika Font.otf"); }
+@font-face { font-family:"Josefin"; src: url("Fonts/JosefinSlab-SemiBold.ttf"); }
+</style>
+</head>
+
+<div id="topper">
+<h1> SAVE OUR WATER ! </h1>
+</div>
+
+<div id="nav">
+  <a id="active" href="..\Homepage\index1.html">Home</a>
+  <a href="..\Page 2\page2.html">More</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  
+</div>
+
+
+<div id="main">
+<body background="Images\manu-schwendener-39728-unsplash.jpg">
+<h2>Water pollution in New Zealand</h2>
+<br>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Images/SELWYN_RIVER_DEAD_TROUT_260117_MikeJoy_1_619x300.jpg" style="width:100%">
+    <div class="text">Selwyn River in Canterbury</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Images/eight_col_water_cows_1_619x300.jpg" style="width:100%">
+    <div class="text">Dairy Farming</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Images/1512500646155_619x300.jpg" style="width:100%">
+    <div class="text">Lake Pupuke in Auckland</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="content">
+
+	<h3>What's happening</h3>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+		Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+		Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+		Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+		imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+		Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+		porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+		feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+		Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. 
+		Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
+
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  
+  slides[slideIndex-1].style.display = "block";  
+  
+}
+</script>
+</div>
+
+
+</body>
+</html>

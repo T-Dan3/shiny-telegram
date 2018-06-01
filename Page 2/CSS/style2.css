@@ -1,0 +1,102 @@
+body
+{
+	width: 100%;
+
+}
+
+h1 {
+	
+	text-align: center;
+	font-family: Stika;
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+
+}
+
+h2 {
+	
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-decoration: underline;
+	
+}
+
+p {
+	
+	font-family: Josefin;
+	font-size: 23px;
+	
+}
+
+#main 
+{
+	width: 1400px;
+	height: 1450px;
+	background: White;
+	margin: 60px auto;
+	border: solid 1px black;
+	
+}
+
+#context
+{
+	text-align: center;
+	
+}
+
+#topper 
+{
+	
+    padding: 20px;
+    text-align: center;
+	top: 0%;
+	width: 100%;
+
+}
+
+#nav {
+	
+	text-align: center;
+	background: rgb(147, 124, 219);
+	height: 55px;
+	width: 100%;
+	
+	
+}
+
+#nav a {
+	float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+	
+}
+
+#nav a:hover {
+	background-color: maroon;
+	color: white;
+}
+
+#active {
+	background-color: green;
+	color:white;
+	
+}
+
+.Images {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 500px;
+  
+}
